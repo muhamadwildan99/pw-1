@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertemuan 3 - Penggunaan dan Implementasi CSS</title>
+  <link rel="stylesheet" href="3-1.css">
+  <link rel="stylesheet" href="3-2.css">
+</head>
+<body>
+
+  <header style="padding: 10px; margin-bottom: 20px;">
+    <a href="https://ipwija.ac.id">Home</a>
+  </header>
+
+  <main id="main" class="main">
+    <section>
+      <h2>Halo World</h2>
+    </section>
+
+    <section id="gambar">
+      <img src="edu.png" height="200" width="200" alt="Ilustrasi Edukasi">
+    </section>
+
+    <section id="form" class="col-1-2">
+      <form>
+        <label>Username:</label>
+        <input type="text" style="margin-bottom: 10px;"><br>
+
+        <label>Password:</label>
+        <input type="password" style="margin-bottom: 10px;"><br>
+
+        <label>Warna:</label>
+        <input type="color" style="margin-bottom: 10px;"><br>
+
+        <label>Dropdown:</label>
+        <select style="margin-bottom: 10px;">
+          <option>1</option>
+          <option>2</option>
+        </select><br>
+
+        <input type="submit" value="Cancel">
+        <button type="button">Login</button>
+      </form>
+    </section>
+
+    <section id="paragraf" style="margin-top: 20px;">
+      <h1>Pertemuan 2</h1>
+      <h2>HTML Dasar</h2>
+      <p>
+        Pertemuan 2, dasar HTML membuat paragraf sederhana dengan huruf 
+        <i>miring</i>, <b>tebal</b>.
+      </p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+      </ul>
+      <ol>
+        <li>Satu</li>
+        <li>Dua</li>
+      </ol>
+    </section>
+
+    <section id="table" style="margin-top: 20px;">
+      <h2>Tabel</h2>
+      <table border="1" cellpadding="8">
+        <thead>
+          <tr><th>Jan</th><th>Feb</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>2</td></tr>
+          <tr><td>3</td><td>4</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer style="margin-top: 30px; padding: 10px;">&copy; 2025</footer>
+
+</body>
+</html>
